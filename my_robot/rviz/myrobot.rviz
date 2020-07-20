@@ -28,7 +28,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: Image
+    SyncSource: ""
 Toolbars:
   toolButtonStyle: 2
 Visualization Manager:
@@ -107,22 +107,12 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        left_back_wheel:
+        left_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        left_front_wheel:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_back_wheel:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_front_wheel:
+        right_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
