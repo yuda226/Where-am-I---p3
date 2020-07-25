@@ -12,6 +12,7 @@ source devel/setup.bash
 roslaunch my_robot world.launch
 roslaunch my_robot amcl.launch
 ```
+![Whereami](/docs/amcl_localized01.png)  
 ## Directory Structure
 ```
 .
