@@ -14,18 +14,17 @@ roslaunch my_robot world.launch
 roslaunch my_robot amcl.launch
 ```
 ![Whereami](/docs/amcl_localized01.png)  
-## Directory Structure
 
 ```
 roslaunch my_robot mapping.launch
 ```
 ![Whereami](/docs/mapping_rtabmap.png)  
-## Directory Structure
 
 ```
 roslaunch my_robot localization.launch
 ```
 ![Whereami](/docs/localization_rtabmap.png)  
+
 ## Directory Structure
 
 ```
