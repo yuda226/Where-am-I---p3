@@ -25,6 +25,9 @@ roslaunch my_robot localization.launch
 ```
 ![Whereami](/docs/localization_rtabmap.png)  
 
+```
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py 
+```
 ## Directory Structure
 
 ```
