@@ -59,12 +59,23 @@
 
   <joint type="fixed" name="camera_joint">
     <origin xyz="0.2 0 0" rpy="0 0 0"/>
-    <child link="camera"/>
+    <child link="camera_link"/>
     <parent link="chassis"/>
     <axis xyz="0 1 0" rpy="0 0 0"/>
-    <!--<limit effort="10000" velocity="1000"/>
-    <dynamics damping="1.0" friction="1.0"/>-->
+    <limit effort="10000" velocity="1000"/>
+    <dynamics damping="1.0" friction="1.0"/>
   </joint>
+
+  <joint name="camera_optical_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="-1.5707 0 -1.5707"/>
+    <parent link="camera_link"/>
+    <child link="camera_link_optical"/>
+  </joint>
+
+  <link name="camera_link_optical">
+  </link>
+  <!-- <link name="camera_link">
+  </link> -->
 
   <joint type="fixed" name="hokuyo_joint">
     <origin xyz="0.15 0 0.1" rpy="0 0 0"/>
@@ -225,7 +236,7 @@
   </link>
 
 #### add camera ####
-  <link name='camera'>
+  <link name='camera_link'>
     <pose>0 0 0.1 0 0 0</pose>
 
     <inertial>
