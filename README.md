@@ -28,6 +28,12 @@ roslaunch my_robot localization.launch
 ```
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py 
 ```
+To view recorded RTABMap database
+``` 
+rtabmap-databaseViewer ~/.ros/rtabmap.db
+```
+
+
 ## Directory Structure
 
 ```
