@@ -11,12 +11,23 @@ catkin_make
 source devel/setup.bash
 roslaunch my_robot world.launch
 
-- Chose to run amcl or mapping
 roslaunch my_robot amcl.launch
-roslaunch my_robot mapping.launch
 ```
 ![Whereami](/docs/amcl_localized01.png)  
 ## Directory Structure
+
+```
+roslaunch my_robot mapping.launch
+```
+![Whereami](/docs/mapping_rtabmap.png)  
+## Directory Structure
+
+```
+roslaunch my_robot localization.launch
+```
+![Whereami](/docs/localization_rtabmap.png)  
+## Directory Structure
+
 ```
 .
 ├── CMakeLists.txt
