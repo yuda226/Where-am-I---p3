@@ -10,7 +10,10 @@ catkin_make
 ```
 source devel/setup.bash
 roslaunch my_robot world.launch
+
+- Chose to run amcl or mapping
 roslaunch my_robot amcl.launch
+roslaunch my_robot mapping.launch
 ```
 ![Whereami](/docs/amcl_localized01.png)  
 ## Directory Structure
