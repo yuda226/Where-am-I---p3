@@ -30,42 +30,51 @@ roslaunch my_robot localization.launch
 ```
 .
 ├── CMakeLists.txt
+├── docs
+│   ├── amcl_localization_video01.mkv
+│   ├── amcl_localized01.png
+│   ├── amcl_localized_initialization.png
+│   ├── localization_rtabmap.png
+│   └── mapping_rtabmap.png
 ├── my_robot
-│   ├── CMakeLists.txt
-│   ├── config
-│   │   ├── base_local_planner_params.yaml
-│   │   ├── costmap_common_params.yaml
-│   │   ├── global_costmap_params.yaml
-│   │   ├── local_costmap_params.yaml
-│   │   └── __MACOSX
-│   ├── launch
-│   │   ├── amcl.launch
-│   │   ├── robot_description.launch
-│   │   ├── udacity_bot_description.launch
-│   │   ├── udacity_bot_world.launch
-│   │   └── world.launch
-│   ├── maps
-│   │   ├── myhouse.pgm
-│   │   ├── myhouse.yaml
-│   │   ├── myoffice.pgm
-│   │   └── myoffice.yaml
-│   ├── meshes
-│   │   └── hokuyo.dae
-│   ├── package.xml
-│   ├── rviz
-│   │   └── myrobot.rviz
-│   ├── urdf
-│   │   ├── materials.xacro
-│   │   ├── project2robot.gazebo
-│   │   ├── project2robot.xacro
-│   │   ├── udacity_bot.gazebo
-│   │   └── udacity_bot.xacro
-│   └── worlds
-│       ├── empty.world
-│       ├── myhouse.world
-│       ├── myoffice.world
-│       ├── robothouseworld
-│       └── robothouse.world
+│   ├── CMakeLists.txt
+│   ├── config
+│   │   ├── base_local_planner_params.yaml
+│   │   ├── costmap_common_params.yaml
+│   │   ├── global_costmap_params.yaml
+│   │   ├── local_costmap_params.yaml
+│   │   └── __MACOSX
+│   ├── launch
+│   │   ├── amcl.launch
+│   │   ├── localization.launch
+│   │   ├── mapping.launch
+│   │   ├── robot_description.launch
+│   │   ├── udacity_bot_description.launch
+│   │   ├── udacity_bot_world.launch
+│   │   └── world.launch
+│   ├── maps
+│   │   ├── myhouse.pgm
+│   │   ├── myhouse.yaml
+│   │   ├── myoffice.pgm
+│   │   └── myoffice.yaml
+│   ├── meshes
+│   │   └── hokuyo.dae
+│   ├── package.xml
+│   ├── rviz
+│   │   └── myrobot.rviz
+│   ├── urdf
+│   │   ├── materials.xacro
+│   │   ├── project2robot.gazebo
+│   │   ├── project2robot.xacro
+│   │   ├── udacity_bot.gazebo
+│   │   └── udacity_bot.xacro
+│   └── worlds
+│       ├── empty.world
+│       ├── myhouse.world
+│       ├── myoffice.world
+│       ├── robothouseworld
+│       └── robothouse.world
+├── README.md
 └── teleop_twist_keyboard
     ├── CHANGELOG.rst
     ├── CMakeLists.txt
