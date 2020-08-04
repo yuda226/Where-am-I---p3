@@ -34,6 +34,8 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 To view recorded RTABMap database
 ``` 
 rtabmap-databaseViewer ~/.ros/rtabmap.db
+or 
+https://drive.google.com/file/d/1xu3gyKPi79-gLSviC4eteOE4V4c7bZmX/view?usp=sharing
 ```
 
 
