@@ -100,3 +100,8 @@ with the myhouse.world, initial pose lost thus tf transmission failed.
 added myoffice.world, both 2wheel & 4wheel robots runs smoothly.
 ```
 
+### Git 
+```
+http://sethrobertson.github.io/GitBestPractices/
+https://sethrobertson.github.io/GitFixUm/fixup.html
+```
