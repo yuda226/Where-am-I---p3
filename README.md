@@ -25,9 +25,18 @@ roslaunch my_robot localization.launch
 ```
 ![Whereami](/docs/localization_rtabmap.png)  
 
+To run teleop node
 ```
+roslaunch my_robot teleop.launch
+or
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py 
 ```
+To view recorded RTABMap database
+``` 
+rtabmap-databaseViewer ~/.ros/rtabmap.db
+```
+
+
 ## Directory Structure
 
 ```
